@@ -513,7 +513,7 @@ def main():
         return
     
     # Create and run bot
-    bot = BinanceFuturesBot(F8wmuzN5RQiQXZdLUh1rlzQGR2YDrUJuxHNblQS1fwbeblElqHjQxylg7CQSu6NL, Y5sg3jC1K8GYsP7vAgambxRzrNCqfbNa8HppuFxW8Q17TUJAASnF34l5KiJBRxyy, args.testnet)
+    bot = BinanceFuturesBot(api_key, secret_key, args.testnet)
     bot.run()
 
 if __name__ == "__main__":
